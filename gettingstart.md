@@ -15,7 +15,7 @@ git clone git@github.com:jas0ncn/razordphp.git
 
 Razord PHP 使用了Url重写，这意味着你的服务器必须支持Url重写，以下介绍在Apache和Nginx下如何设置Url重写。
 
-##### Apache
+#### Apache
 
 在 `[Apache安装目录]/conf/httpd.conf` 中找到
 
@@ -47,7 +47,7 @@ Deny from all
 
 重启 Apache 即可
 
-##### Nginx
+#### Nginx
 
 在 `Linux` 下执行：
 ```bash
