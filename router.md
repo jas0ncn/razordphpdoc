@@ -75,7 +75,7 @@ public function funciontName ($modules, $query) {
  * @url(GET, '/index/:keyword1/:keyword2')
  */
 public function funciontName ($modules, $query) {
-    print_rt($query); // array('keyword1' => 'value1', 'keyword2' => 'value2')
+    print_r($query); // array('keyword1' => 'value1', 'keyword2' => 'value2')
 }
 ...
 ```
