@@ -4,7 +4,7 @@ Razord PHP 的应用中，每一个二级目录对应一个控制器，控制器
 ```
 [CONTROLLER_NAME].class.php
 ```
-对应的 HTTP 路径为：
+对应的 HTTP Url 为：
 ```
 xxx.com/[CONTROLLER_NAME]
 ```
