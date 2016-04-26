@@ -1,6 +1,6 @@
 # Url 重写
 
-Razord PHP 使用了Url重写，这意味着你的服务器必须支持Url重写，以下介绍在Apache和Nginx下如何设置Url重写。
+Razord PHP 使用了 Url 重写，这意味着你的服务器必须支持 Url 重写，以下介绍在 Apache 和 Nginx 下如何设置Url重写。
 
 #### Apache
 
@@ -40,7 +40,7 @@ Deny from all
 ```bash
 vim /etc/nginx/conf.d/[YOURCONFIG].conf
 ```
-然后修改 `.conf` 文件中对php代理的设置：
+然后修改 `.conf` 文件中对 PHP 代理的设置：
 
 ```bash
 location ~ .php$ {
