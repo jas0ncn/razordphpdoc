@@ -82,4 +82,6 @@ public function funciontName ($modules, $query) {
 
 以上代码你都可以在 `./controller/index.class.php` 中找到。
 
-你仍可以通过 `$_GET` 和 `$_POST` 等全局变量获取查询参数值，但我们不建议这么做。
+> 你仍可以通过 `$_GET` 和 `$_POST` 等全局变量获取查询参数值，但我们不建议这么做。
+
+> 任何二级路径和查询参数的键名都是区分大小写的，开发时应注意。
