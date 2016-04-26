@@ -62,6 +62,9 @@ class index
 
 ```php
     ...
+    /**
+     * @url(GET, '/index/:key')
+     */
     public function funciontName ($modules, $query) {
         print_r($query); // array('key' => 'value')
     }
@@ -71,10 +74,12 @@ class index
 同样的，你可以绑定多个参数，看例子：
 
 ```php
+    ...
     /**
      * @url(GET, '/index/:keyword1/:keyword2')
      */
     public function funciontName ($modules, $query) {
         print_rt($query); // array('keyword1' => 'value1', 'keyword2' => 'value2')
     }
+    ...
 ```
