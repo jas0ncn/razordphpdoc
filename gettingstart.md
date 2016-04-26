@@ -18,7 +18,7 @@ git clone git@github.com:jas0ncn/razordphp.git
  * Razord PHP
  * @author     Jason
  * @copyright  Copyright (c) 2015 razord.ijason.cc
- * @license	   http://opensource.org/licenses/MIT	MIT License
+ * @license    http://opensource.org/licenses/MIT	MIT License
  */
 
 /* 加载主文件 */
