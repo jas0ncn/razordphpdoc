@@ -1,6 +1,6 @@
 # 安装
 
-使用 git 从 github 上 clone 下项目的源码到web开发目录
+使用 git 从 github 上 `clone` 下项目的源码到 web 开发目录
 
 ```bash
 git clone git@github.com:jas0ncn/razordphp.git
@@ -35,4 +35,4 @@ $Razord->load('verify');
 $Razord->start(true);
 ?>
 ```
-之后将会详细介绍RazordPHP的API。
+之后将会详细介绍 RazordPHP 的 API。
