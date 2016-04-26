@@ -1,6 +1,6 @@
 # 控制器
 
-Razord PHP的应用中，每一个二级目录对应一个控制器，控制器应放在和 `index.php` 同级的 `controller` 目录下，命名规则为：
+Razord PHP 的应用中，每一个二级目录对应一个控制器，控制器应放在和 `index.php` 同级的 `controller` 目录下，命名规则为：
 ```
 [CONTROLLER_NAME].class.php
 ```
@@ -8,7 +8,7 @@ Razord PHP的应用中，每一个二级目录对应一个控制器，控制器�
 ```
 xxx.com/[CONTROLLER_NAME]
 ```
-应特别注意 `[CONTROLLER_NAME]` 和类名应该完全一致。包括大小写，即使Razord可能可以解析首字母大写的类名。
+应特别注意 `[CONTROLLER_NAME]` 和类名应该完全一致。包括大小写，即使 Razord 可能可以解析首字母大写的类名。
 
 特别的，若访问域名的根目录 `xxx.com/` 时，Razord将直接调用 `index.class.php` ，所以无论如何，控制器目录都必须有 `index.class.php` 这个文件。
 
