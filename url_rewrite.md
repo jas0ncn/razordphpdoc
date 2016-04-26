@@ -1,4 +1,4 @@
-# Url
+# Url 重写
 
 Razord PHP 使用了Url重写，这意味着你的服务器必须支持Url重写，以下介绍在Apache和Nginx下如何设置Url重写。
 
