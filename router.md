@@ -15,17 +15,16 @@ Url路由绑定接受两个参数，一个规定匹配的 `method` ，一个规�
 我们来看个例子：
 
 ```php
-    ...
-    /**
-     * 根目录
-     * @url(GET, '/')
-     */
-    public function root ($modules) {
-        $msg = 'Hello World';
-        Boostrap::output($msg);
-    }
-    
-    ...
+...
+/**
+ * 根目录
+ * @url(GET, '/')
+ */
+public function root ($modules) {
+    $msg = 'Hello World';
+    Boostrap::output($msg);
+}
+...
 ```
 可以发现，在注释中，多了一行：`@url(GET, '/')`，这段代码是Razord路由绑定语法。
 
@@ -34,18 +33,16 @@ Url路由绑定接受两个参数，一个规定匹配的 `method` ，一个规�
 再来看另一个例子：
     
 ```php
-    ...
-
-    /**
-     * 二级目录
-     * @url(GET, '/heyjason')
-     */
-    public function heyJason ($modules) {
-        $msg = 'Hey Jason!';
-        Boostrap::output($msg);
-    }
-    
-    ...
+...
+/**
+ * 二级目录
+ * @url(GET, '/heyjason')
+ */
+public function heyJason ($modules) {
+    $msg = 'Hey Jason!';
+    Boostrap::output($msg);
+}
+...
 ```
 同样，当HTTP请求的 `method` 为 `GET` 时，且访问路径为 `/index/heyjason` ，将会执行 `heyJason` 函数。
 
@@ -60,27 +57,27 @@ Url路由绑定接受两个参数，一个规定匹配的 `method` ，一个规�
 注意，记得在相应的函数上加入第二个参数（例中的`$query`），`$query`是一个数组，结构为 `array('KEY' => 'VALUE')` ，`KEY` 为路由绑定的键名：
 
 ```php
-    ...
-    /**
-     * @url(GET, '/index/:keyword')
-     */
-    public function funciontName ($modules, $query) {
-        print_r($query); // array('keyword' => 'value')
-    }
-    ...
+...
+/**
+ * @url(GET, '/index/:keyword')
+ */
+public function funciontName ($modules, $query) {
+    print_r($query); // array('keyword' => 'value')
+}
+...
 ```
 
 同样的，你可以绑定多个参数，看例子：
 
 ```php
-    ...
-    /**
-     * @url(GET, '/index/:keyword1/:keyword2')
-     */
-    public function funciontName ($modules, $query) {
-        print_rt($query); // array('keyword1' => 'value1', 'keyword2' => 'value2')
-    }
-    ...
+...
+/**
+ * @url(GET, '/index/:keyword1/:keyword2')
+ */
+public function funciontName ($modules, $query) {
+    print_rt($query); // array('keyword1' => 'value1', 'keyword2' => 'value2')
+}
+...
 ```
 
 以上代码你都可以在 `./controller/index.class.php` 中找到。
