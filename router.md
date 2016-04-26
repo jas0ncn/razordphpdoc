@@ -67,3 +67,15 @@ class index
     }
     ...
 ```
+
+同样的，你可以绑定多个参数，看例子：
+
+```php
+    /**
+     * 同个二级目录带多个参数
+     * @url(GET, '/heyjason/:keyword1/:keyword2')
+     */
+    public function heyJasonWithKeywords ($modules, $query) {
+        Boostrap::output($query);
+    }
+```
