@@ -83,3 +83,5 @@ class index
     }
     ...
 ```
+
+以上代码你都可以在 `./controller/index.class.php` 中找到。
