@@ -63,10 +63,10 @@ class index
 ```php
     ...
     /**
-     * @url(GET, '/index/:key')
+     * @url(GET, '/index/:keyword')
      */
     public function funciontName ($modules, $query) {
-        print_r($query); // array('key' => 'value')
+        print_r($query); // array('keyword' => 'value')
     }
     ...
 ```
