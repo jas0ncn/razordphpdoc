@@ -75,7 +75,7 @@ class index
      * 同个二级目录带多个参数
      * @url(GET, '/heyjason/:keyword1/:keyword2')
      */
-    public function heyJasonWithKeywords ($modules, $query) {
-        Boostrap::output($query);
+    public function funciontName ($modules, $query) {
+        print_rt($query); // array('keyword1' => 'value1', 'keyword2' => 'value2')
     }
 ```
