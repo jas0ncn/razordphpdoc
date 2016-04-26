@@ -35,4 +35,4 @@ $Razord->load('verify');
 $Razord->start(true);
 ?>
 ```
-
+之后将会详细介绍RazordPHP的API。
