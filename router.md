@@ -31,6 +31,8 @@ class index
 可以发现，在注释中，多了一行：`@url(GET, '/')`，这段代码是Razord路由绑定语法。
 
 当一个HTTP请求的 `method` 为 `GET` 时，且访问路径为 `/` 或 `/index` ，将会执行 `root` 函数。
+
+再来看另一个例子：
     
 ```php
     ...
@@ -49,3 +51,17 @@ class index
 同样，当HTTP请求的 `method` 为 `GET` 时，且访问路径为 `/index/heyjason` ，将会执行 `heyJason` 函数。
 
 #### 参数路由
+
+在实际的开发过程中，我们可能会遇到需要查询参数（`query`）的路径，Razord允许开发者在路由上绑定查询参数，具体语法如下：
+
+```
+@url([METHOD], [PATH/:KEY])
+```
+
+此时注意，记得在相应的函数上加入第二个参数：
+
+```php
+    ...
+    public function funciontName ($modules, $query) {}
+    ...
+```
