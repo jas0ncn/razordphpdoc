@@ -58,10 +58,12 @@ class index
 @url([METHOD], [PATH/:KEY])
 ```
 
-此时注意，记得在相应的函数上加入第二个参数：
+注意，记得在相应的函数上加入第二个参数（例中的`$query`），`$query`是一个数组，结构为 `array('KEY' => 'VALUE')` ，`KEY` 为路由绑定的键名：
 
 ```php
     ...
-    public function funciontName ($modules, $query) {}
+    public function funciontName ($modules, $query) {
+        print_r($query); // array('key' => 'value')
+    }
     ...
 ```
