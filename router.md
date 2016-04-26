@@ -12,7 +12,7 @@ Url路由绑定接受两个参数，一个规定匹配的 `method` ，一个规�
 
 ##### 例子
 
-我们来看个例子（ `./controller/index.class.php` ）：
+我们来看个例子：
 
 ```php
 class index
