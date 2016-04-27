@@ -26,7 +26,7 @@ class verify
 在应用的入口文件（一般是 `index.php` ）中使用 `Boostrap` 的 API `load()` 引入：
 
 ```php
-$Boostrap->load('MODULE_NAME');
+Razord->load('MODULE_NAME');
 ```
 
 ### 调用模块
