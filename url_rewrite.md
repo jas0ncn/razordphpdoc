@@ -2,7 +2,7 @@
 
 Razord PHP 使用了 Url 重写，这意味着你的服务器必须支持 Url 重写，以下介绍在 Apache 和 Nginx 下如何设置Url重写。
 
-#### Apache
+### Apache
 
 在 `[Apache安装目录]/conf/httpd.conf` 中找到
 
@@ -34,7 +34,7 @@ Deny from all
 
 重启 Apache 即可
 
-#### Nginx
+### Nginx
 
 在 `Linux` 下执行：
 ```bash
