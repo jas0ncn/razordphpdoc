@@ -36,7 +36,7 @@ $Razord->load($moduleNames);
 
 ### `start()`
 
-**描述：** Razord 应用启动模块
+**描述：** Razord 应用启动函数
 
 **原型：**
 ```php
