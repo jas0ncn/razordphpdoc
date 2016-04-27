@@ -23,7 +23,7 @@ class verify
 ```
 ### 注册模块（引入模块）
 
-在应用的入口文件（一般是 `index.php` ）中使用 `Boostrap` 的 API `load()` 引入：
+在应用的入口文件（一般是 `index.php` ）中使用 `Bootstrap` 的 API `load()` 引入：
 
 ```php
 $Razord->load('MODULE_NAME');
