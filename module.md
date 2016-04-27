@@ -12,6 +12,7 @@ Razord 设计了一套模块系统，使得你可以轻易的引入或开发一�
 */
 class Verify
 {
+    // 必须！
     public function exec ()
     {
         return true;
