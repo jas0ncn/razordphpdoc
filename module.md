@@ -2,6 +2,10 @@
 
 Razord 设计了一套模块系统，使得你可以轻易的引入或开发一套模块。
 
+### 关于命名
+
+为了保证 Razord 的正常运行，模块不能使用一下保留字：`bootstrap, razord, init, core, config, exec`
+
 ### 基本语法
 
 模块本身是一个 PHP 类，遵循 PHP 类的语法，但注意，每个模块都必须有一个 `$exec` 方法，这个方法供 Razord 在加载类的时候初始化使用，如果你有任何逻辑想在程序之前执行的，也可以写在 `$exec` 中。例如 `./module/verify.class.php` 中的权限验证：
