@@ -30,6 +30,6 @@ class verify
 
 ```php
 ...
-$module['MODULE_NAME']->FUNCTION_NAME()
+$module['MODULE_NAME']->FUNCTION_NAME();
 ...
 ```
