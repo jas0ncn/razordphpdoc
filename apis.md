@@ -22,6 +22,10 @@ public function load ($moduleName) {...}
 
 `$module` 要加载的模块名称，可以是模块名称的数组
 
+**返回值：**
+
+无
+
 **例子：**
 
 ```php
