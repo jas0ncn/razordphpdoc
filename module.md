@@ -37,7 +37,7 @@ $Razord->load('MODULE_NAME');
 [MODULE_NAME].class.php
 ```
 
-若命名错误或没有找到模块，Razord 将输出错误 `103` 。
+若命名错误或没有找到模块，Razord 将输出错误 `103` 。具体请查看[错误代码](error_code.md)
 
 ### 调用模块
 
