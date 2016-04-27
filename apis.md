@@ -5,5 +5,6 @@
 ```php
 require('./config.php');
 require('./core/init.php');
+
 $Razord = new Bootstrap;
 ```
