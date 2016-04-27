@@ -42,8 +42,7 @@ $modules['MODULE_NAME']->FUNCTION_NAME();
  */
 public function module ($modules) {
     $msg = $modules['verify']->getMsg();
-    Boostrap::output($msg);
+    Boostrap::output($msg); // "Hello Verify"
 }
 ...
 ```
-当 `GET http://localhost/module` 时，将会输出
