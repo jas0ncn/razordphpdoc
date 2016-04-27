@@ -82,5 +82,5 @@ public function output ($content) {...}
 **例子：**
 
 ```php
-$Razord->start(); // 启动框架
+$Razord->output('Hello 哈哈'); // 启动框架
 ```
