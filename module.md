@@ -29,7 +29,7 @@ class verify
 $Razord->load('MODULE_NAME');
 ```
 
-关于 `load()` 的详细文档，请查看 [API](apis.md#load)
+关于 `load()` 的详细文档，请查看 [API 文档](apis.md#load)
 
 ### 调用模块
 
