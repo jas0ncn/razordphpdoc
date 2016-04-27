@@ -7,4 +7,5 @@
 * [控制器](controller.md)
 * [模块系统](module.md)
 * [API文档](apis.md)
+* [错误代码](error_code.md)
 
