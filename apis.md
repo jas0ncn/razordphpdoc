@@ -50,9 +50,5 @@ public function start () {...}
 **例子：**
 
 ```php
-$Razord->load('verify'); // 加载全局验证模块
+$Razord->start(); // 启动框架
 ```
-或
-```php
-$moduleNames = array('verify'); // 要加载的模块名称的数组
-$Razord->load($moduleNames);
