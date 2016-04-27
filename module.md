@@ -18,9 +18,6 @@ class verify
         return true;
     }
 
-    public function getMsg ()
-    {
-    	return 'Hello Verify';
-    }
+    ...
 }
 ```
