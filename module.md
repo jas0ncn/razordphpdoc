@@ -4,7 +4,7 @@ Razord 设计了一套模块系统，使得你可以轻易的引入或开发一�
 
 ### 关于命名
 
-为了保证 Razord 的正常运行，模块不能使用一下保留字：`bootstrap, razord, init, core, config, exec`
+为了保证 Razord 的正常运行，模块不能使用一下保留字：`bootstrap, razord, init, core, config, exec`。
 
 ### 基本语法
 
