@@ -52,3 +52,23 @@ public function start () {...}
 ```php
 $Razord->start(); // 启动框架
 ```
+***
+
+### `output()`
+
+**描述：** Razord 应用启动函数
+
+**原型：**
+```php
+public function start () {...}
+```
+
+**参数：**
+
+无
+
+**例子：**
+
+```php
+$Razord->start(); // 启动框架
+```
