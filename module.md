@@ -24,4 +24,12 @@ class verify
 
 ### 调用
 
-既然是模块，载入了 Razord 中肯定要能调用，在控制器的方法中，我们强调要添加 `$module` 参数（[控制器](controller.md)）
+既然是模块，载入了 Razord 中肯定要能调用，在控制器的方法中，我们强调要添加 `$module` 参数（[控制器](controller.md)），载入的模块都会被注册到这个变量中。
+
+在控制器的方法中可以通过以下语法来调用模块方法：
+
+```php
+...
+$module['MODULE_NAME']->FUNCTION_NAME()
+...
+```
