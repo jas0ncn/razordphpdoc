@@ -11,3 +11,14 @@
 
 ### `load()`
 
+**描述：** Razord 加载模块函数
+
+**原型：**
+```php
+/**
+ * 模块加载函数
+ * @param  [String|Array] $moduleName [要加载的模块名称，可以是模块列表的数组]
+ */
+public function load ($moduleName) {...}
+```
+
