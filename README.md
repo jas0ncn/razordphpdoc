@@ -8,6 +8,6 @@ Razord PHP 采用反射机制解析注释中的路由规则，达到匹配路由
 
 这是 Razord 的架构图
 
-<img src="http://blog.ijason.cc/static/razordphp/framework.jpg" alt="RazordPHP_Framework" width="850px" />
+<img src="http://blog.ijason.cc/static/razordphp/framework.jpg" alt="RazordPHP_Framework" width="600px" />
 
 接下来，开始吧！
