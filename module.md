@@ -31,6 +31,12 @@ $Razord->load('MODULE_NAME');
 
 关于 `load()` 的详细文档，请查看 [API文档](apis.md)
 
+注意，要载入的模块必须放在 `./module` 文件夹中，且命名同 `controller` 命名相同：
+
+```
+[MODULE_NAME].class.php
+```
+
 ### 调用模块
 
 既然是模块，载入了 Razord 中肯定要能调用，在控制器的方法中，我们强调要添加 `$modules` 参数（[控制器](controller.md)），载入的模块都会被注册到这个变量中。
