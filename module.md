@@ -10,7 +10,7 @@ Razord 设计了一套模块系统，使得你可以轻易的引入或开发一�
 /**
 * 全局验证模块
 */
-class Verify
+class verify
 {
     // 必须！
     public function exec ()
