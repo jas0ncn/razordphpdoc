@@ -18,6 +18,12 @@
 public function load ($moduleName) {...}
 ```
 
-**参数**：
+**参数：**
 
 `$module` 要加载的模块名称，可以是模块名称的数组
+
+**例子：**
+
+```php
+$Razord->load('verify'); // 加载全局验证模块
+```
