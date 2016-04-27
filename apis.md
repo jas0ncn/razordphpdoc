@@ -64,7 +64,7 @@ $Razord->start(); // 启动框架
 
 ### `output()`
 
-**描述：** Razord 输出模块，该函数会把输入的内容转换成 `JSON` 数据，并加 `Header` 为 `application/json` 输出
+**描述：** Razord 输出模块，该函数会把输入的内容转换成 `JSON` 数据，并加 `Header` 为 `application/json` 输出。
 
 **原型：**
 ```php
