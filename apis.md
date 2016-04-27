@@ -73,7 +73,7 @@ public function output ($content) {...}
 
 **参数：**
 
-`$content` 要输出的内容
+`$content` 要输出的内容，可以是任何类型。
 
 **返回值：**
 
