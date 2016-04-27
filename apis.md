@@ -56,11 +56,11 @@ $Razord->start(); // 启动框架
 
 ### `output()`
 
-**描述：** Razord 应用启动函数
+**描述：** Razord 输出模块
 
 **原型：**
 ```php
-public function start () {...}
+public function output ($content) {...}
 ```
 
 **参数：**
