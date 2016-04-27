@@ -27,3 +27,8 @@ public function load ($moduleName) {...}
 ```php
 $Razord->load('verify'); // 加载全局验证模块
 ```
+或
+```php
+$moduleNames = array('verify');
+$Razord->load($moduleNames); // 加载全局验证模块
+```
