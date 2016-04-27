@@ -6,4 +6,5 @@
 * [路由](router.md)
 * [控制器](controller.md)
 * [模块系统](module.md)
+* [API文档](apis.md)
 
