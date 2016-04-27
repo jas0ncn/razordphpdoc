@@ -33,3 +33,5 @@ $moduleNames = array('verify'); // 要加载的模块名称的数组
 $Razord->load($moduleNames);
 ```
 ***
+
+### `start()`
