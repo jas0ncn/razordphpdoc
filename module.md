@@ -46,3 +46,4 @@ public function module ($modules) {
 }
 ...
 ```
+当 `GET http://localhost/module` 时，将会输出
