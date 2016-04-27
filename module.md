@@ -37,6 +37,8 @@ $Razord->load('MODULE_NAME');
 [MODULE_NAME].class.php
 ```
 
+若命名错误或没有找到模块，Razord 将输出错误 `103`
+
 ### 调用模块
 
 既然是模块，载入了 Razord 中肯定要能调用，在控制器的方法中，我们强调要添加 `$modules` 参数（[控制器](controller.md)），载入的模块都会被注册到这个变量中。
