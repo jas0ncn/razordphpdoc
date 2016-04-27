@@ -21,3 +21,7 @@ PHP 版本过低，Razord PHP 支持最低的 PHP 版本为 `5.3.0`，如果你�
 载入的模块名称使用了保留字。关于保留字请查看 [模块系统](module.md) 。
 
 ## `3xx`，`4xx` HTTP请求码
+
+### `404`
+
+页面没有响应的 `controller` 或 `function`
