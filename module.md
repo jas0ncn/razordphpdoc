@@ -33,3 +33,16 @@ class verify
 $module['MODULE_NAME']->FUNCTION_NAME();
 ...
 ```
+例如 `./controller/index.class.php` 中 `module` 方法：
+```php
+...
+/**
+ * 调用模块
+ * @url(GET, '/module')
+ */
+public function module ($modules) {
+    $msg = $modules['verify']->getMsg();
+    Boostrap::output($msg);
+}
+...
+```
