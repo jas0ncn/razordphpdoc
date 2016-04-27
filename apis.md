@@ -75,6 +75,10 @@ public function output ($content) {...}
 
 `$content` 要输出的内容
 
+**返回值：**
+
+无
+
 **例子：**
 
 ```php
