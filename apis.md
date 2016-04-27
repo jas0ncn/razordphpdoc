@@ -65,7 +65,7 @@ public function output ($content) {...}
 
 **参数：**
 
-无
+`$content` 要输出的内容
 
 **例子：**
 
