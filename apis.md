@@ -29,6 +29,6 @@ $Razord->load('verify'); // 加载全局验证模块
 ```
 或
 ```php
-$moduleNames = array('verify');// 要加载的模块名称的
+$moduleNames = array('verify'); // 要加载的模块名称的数组
 $Razord->load($moduleNames);
 ```
