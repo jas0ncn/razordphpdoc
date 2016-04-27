@@ -24,4 +24,4 @@ PHP 版本过低，Razord PHP 支持最低的 PHP 版本为 `5.3.0`，如果你�
 
 ### `404`
 
-页面没有响应的 `controller` 或 `function`
+页面没有响应的 `controller` 或 `router`
