@@ -40,7 +40,7 @@ $Razord->load($moduleNames);
 
 **原型：**
 ```php
-public function load ($moduleName) {...}
+public function start () {...}
 ```
 
 **参数：**
