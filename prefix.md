@@ -16,8 +16,8 @@ http(s)://xxx.com/api
 
 ### 如何使用
 
-`prefix` 的使用非常的简单，只需要在 RazordPHP 实例化的时候加上一个 `prefix` 参数。
+`prefix` 的使用非常的简单，只需要在 RazordPHP 实例化的时候加上一个 `prefix` 参数，例如这样：
 
 ```php
-$Razord = new Bootstrap('prefix');
+$Razord = new Bootstrap('api');
 ```
