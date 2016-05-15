@@ -72,7 +72,7 @@ location ~ .php$ {
 ```
 ...
 RewriteRule ^FOLDER_NAME/(.*)$ /index.php/$1 [L]
-RewriteRule ^FOLDER_NAME/ /index.php/index [L]
+RewriteRule ^FOLDER_NAME /index.php/index [L]
 ...
 ```
 
