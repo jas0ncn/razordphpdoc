@@ -65,4 +65,12 @@ location ~ .php$ {
 }
 ```
 
+### 部署在二级目录
+
+如果你将 RazordPHP 部署在二级目录，请注意修改 `.htaccess` （Apache 环境下）
+
+```
+RewriteRule ^FOLDER_NAME/(.*)$ /index.php/$1 [L]
+```
+
 重启 Nginx 即可。
