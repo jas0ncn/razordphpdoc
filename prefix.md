@@ -21,3 +21,5 @@ http(s)://xxx.com/api
 ```php
 $Razord = new Bootstrap('api');
 ```
+
+这个时候，RazordPHP 将会把 `/api` 当成顶级路径，直接访问 `xxx.com/api` 将会指向 `index` 控制器。
