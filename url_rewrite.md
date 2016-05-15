@@ -81,6 +81,7 @@ RewriteRule ^FOLDER_NAME/ /index.php/index [L]
 ```bash
 ...
 rewrite ^/FOLDER_NAME/(.*)$ /index.php/$1 last;
+rewrite ^/FOLDER_NAME /index.php/index last;
 ...
 ```
 
