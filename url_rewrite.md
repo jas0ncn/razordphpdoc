@@ -85,6 +85,6 @@ rewrite ^/FOLDER_NAME /index.php/index last;
 ...
 ```
 
-当设置了二级目录的Url重写时，请将 `.htaccess` 放在二级目录而不是放在顶层目录中。同时，您需要访问
+当设置了二级目录的Url重写时，请将 `.htaccess` 放在二级目录而不是放在顶层目录中。
 
 重启 Nginx 即可。
