@@ -70,7 +70,20 @@ location ~ .php$ {
 如果你将 RazordPHP 部署在二级目录，请注意修改 `.htaccess` （Apache 环境下）
 
 ```
+...
 RewriteRule ^FOLDER_NAME/(.*)$ /index.php/$1 [L]
+RewriteRule ^FOLDER_NAME/ /index.php/index [L]
+...
 ```
+
+同理，Nginx 环境下修改为：
+
+```bash
+...
+rewrite ^/FOLDER_NAME/(.*)$ /index.php/$1 last;
+...
+```
+
+当设置了二级目录的Url重写时，请将 `.htaccess` 放在二级目录而不是放在顶层目录中。同时，您需要访问
 
 重启 Nginx 即可。
