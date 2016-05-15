@@ -22,4 +22,4 @@ http(s)://xxx.com/api
 $Razord = new Bootstrap('api');
 ```
 
-这个时候，RazordPHP 将会把 `/api` 当成顶级路径，直接访问 `xxx.com/api` 将会指向 `index` 控制器。
+这个时候，RazordPHP 将会把 `/api` 当成顶级路径，直接访问 `xxx.com/api` 将会指向 `index` 控制器而不是 `api` 控制器。
