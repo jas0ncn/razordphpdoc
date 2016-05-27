@@ -29,10 +29,11 @@ require('./core/init.php');
 $Razord = new Boostrap;
 
 /* 加载模块 */
-$Razord->load('verify');
+$moduleNames = array('verify'); // 要加载的模块名称的数组
+$Razord->load($moduleNames);
 
 /* 启动框架 */
-$Razord->start(true);
+$Razord->start();
 ?>
 ```
 之后将会详细介绍 RazordPHP 的 API。
